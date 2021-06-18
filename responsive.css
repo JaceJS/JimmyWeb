@@ -1,0 +1,83 @@
+@media screen and (max-width: 800px){
+    body{
+        font-size: 16px;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+
+    .dropdown-menu{
+        display: block;
+        margin-right: 24px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #f70e0e;
+        color: white;
+    }
+
+    .dropdown-menu:focus + ul{
+        opacity: 1;       
+        transform: translateY(10px);
+    }
+
+    nav ul{
+        display: block;
+        position: absolute;
+        background-color: #f70e0e;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        transform: translateY(-20px);        
+        transition: all 0.5s;
+    }
+
+    nav ul li{
+        padding: 20px;
+        border-bottom: 1px solid white;
+        width: 100%;
+    }
+
+    nav ul li a{
+        width: 100%;
+    }
+
+    .content{
+        text-align: center;    
+        padding: 20px 60px;    
+    }
+
+    article{
+        width: 100%;
+    }
+
+    .agents-article h1{
+        text-align: center;
+    }
+
+    .description-maps{
+        margin: 0;
+    }
+
+    .description-agents{    
+        text-align: center;
+        margin: 0;
+    }
+
+    .preview{
+        display: inline-block;
+    }
+
+    .preview img{
+        width: 80%;    
+    }
+    
+    .social-media{
+        text-align: center;
+    }
+
+    form{
+        width: 80%;
+    }
+}

@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-family: 'Black Ops One', cursive;
+    font-size: 60px;
+}
+
+body{
+    font-size: 24px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    position: relative;
+}
+
+.dropdown-menu{
+    display: none;
+}
+
+nav{
+    align-self: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+li {
+    list-style: none;  
+    margin-right: 24px;
+    font-size: 20px;
+}
+
+/* home style */
+#intro-img{
+    width: 100%; 
+    margin-bottom: 50px;
+}
+
+.content{
+    padding: 50px 130px;
+}
+
+.agents-article h1{
+    text-align: right;
+}
+
+.preview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 90px;
+}
+
+.preview img{
+    width: 470px;    
+}
+
+.preview h2{
+    font-weight: normal;
+    padding-bottom: 40px;
+}
+
+.right-image{
+    order: 1;
+}
+
+.description-maps{
+    margin-left: 30px;
+}
+
+.description-agents{
+    text-align: right;
+    margin-right: 30px;
+}
+
+.social-media{
+    padding: 0 130px;
+}
+
+.social-media h1{
+    margin-bottom: 25px;
+}
+
+.social-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 15px; 
+    margin-bottom: 20px;   
+}
+
+.social-icon img{
+    width: 40px;
+    margin-right: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+.page-name{
+    color: #fd6246;
+    margin-bottom: 50px;
+}
+
+/* agents style */
+.agents-img{
+    width: 100%;
+}
+
+/* system requirement style */
+.system{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#poster-img{
+    width: 100%;
+}
+
+.requirements{
+    margin-top: 30px;
+}
+
+.requirements-list{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* pre-register style */
+.container{
+    height: 800px;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f70e0e;
+}
+
+.form-header{
+    text-align: center;
+}
+
+form{
+    background-color: white;
+    border: 1px solid black;
+    width: 40%;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0);
+}
+
+.form-input{
+    padding-bottom: 20px;
+}
+
+.form-input input{
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-input input.error{
+    border: 1px solid red;
+}
+
+small{
+    font-size: 15px;
+    color: red;
+    display: none;
+}
+
+small.error{
+    display: block;
+}
+
+.terms-input{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.submit-button button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
